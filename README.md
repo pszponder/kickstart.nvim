@@ -40,6 +40,20 @@ External Requirements:
 > **NOTE**
 > [Backup](#FAQ) your previous configuration (if any exists)
 
+```bash
+# =====================================
+# How to backup your current nvim files
+# =====================================
+
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+
 Neovim's configurations are located under the following paths, depending on your OS:
 
 | OS | PATH |
@@ -226,3 +240,11 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+## Additional Resources
+
+- [typecraft - Neovim for Newbs](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
+- [lazyvim](https://www.lazyvim.org/)
+- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+- [Josean Martinez - How I Setup Neovim To Make it Amazing in 2024: The Ultimate Guide](https://www.josean.com/posts/how-to-setup-neovim-2024)
+- [learn x in y minutes - lua](https://learnxinyminutes.com/docs/lua/)
+- [neovim - Lua Guide](https://neovim.io/doc/user/lua-guide.html)
