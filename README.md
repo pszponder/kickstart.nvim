@@ -56,11 +56,11 @@ mv ~/.cache/nvim{,.bak}
 
 Neovim's configurations are located under the following paths, depending on your OS:
 
-| OS | PATH |
-| :- | :--- |
-| Linux, MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
-| Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
-| Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
+| OS                   | PATH                                      |
+| :------------------- | :---------------------------------------- |
+| Linux, MacOS         | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
+| Windows (cmd)        | `%userprofile%\AppData\Local\nvim\`       |
+| Windows (powershell) | `$env:USERPROFILE\AppData\Local\nvim\`    |
 
 #### Recommended Step
 
@@ -144,7 +144,7 @@ examples of adding popularly requested plugins.
   * The main purpose of kickstart is to serve as a teaching tool and a reference
     configuration that someone can easily use to `git clone` as a basis for their own.
     As you progress in learning Neovim and Lua, you might consider splitting `init.lua`
-    into smaller parts. A fork of kickstart that does this while maintaining the 
+    into smaller parts. A fork of kickstart that does this while maintaining the
     same functionality is available here:
     * [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
   * Discussions on this topic can be found here:
@@ -248,3 +248,4 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 - [Josean Martinez - How I Setup Neovim To Make it Amazing in 2024: The Ultimate Guide](https://www.josean.com/posts/how-to-setup-neovim-2024)
 - [learn x in y minutes - lua](https://learnxinyminutes.com/docs/lua/)
 - [neovim - Lua Guide](https://neovim.io/doc/user/lua-guide.html)
+- [Switching Configs in NeoVim](https://michaeluloth.com/neovim-switch-configs/)
